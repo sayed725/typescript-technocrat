@@ -1,6 +1,6 @@
 // spread operator
 
-const friends = ["Rahim", "Karim"];
+// const friends = ["Rahim", "Karim"];
 
 const schoolFriends = ["pintu", "chintu", "bulbul"];
 
@@ -8,8 +8,8 @@ const collegeFriends = ["Mr. Smart", "Mr very very smart"];
 
 // const friends = ["Rahim", "Karim", ["pintu", "chintu", "bulbul"]];
 
-friends.push(...schoolFriends);
-friends.push(...collegeFriends);
+// friends.push(...schoolFriends);
+// friends.push(...collegeFriends);
 
 // console.log(friends);
 

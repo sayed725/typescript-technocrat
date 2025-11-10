@@ -38,17 +38,17 @@ let destination: [string, string, number] = ["Dhaka", "Chattogram", 3];
 // user.organization = "Programming Hero Fire";
 
 
-const user: {
-  readonly organization: string; // access modifier
-  firstName: string;
-  middleName?: string; // optional type
-  lastName: string;
-  isMarried: boolean;
-} = {
-  organization: "Programming Hero",
-  firstName: "Jhankar",
-  lastName: "Mahbub",
-  isMarried: true,
-};
+// const user: {
+//   readonly organization: string; // access modifier
+//   firstName: string;
+//   middleName?: string; // optional type
+//   lastName: string;
+//   isMarried: boolean;
+// } = {
+//   organization: "Programming Hero",
+//   firstName: "Jhankar",
+//   lastName: "Mahbub",
+//   isMarried: true,
+// };
 
 // user.organization = "Programming Hero Fire";
