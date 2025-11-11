@@ -35,18 +35,18 @@ const resultWithNulish = isAuthenticated ?? '"You are guest !';
 
 //optional chaining
 
-const user: {
-  address: {
-    city: string;
-    town: string;
-    postalCode?: string;
-  };
-} = {
-  address: {
-    city: "Dhaka",
-    town: "Banani",
-  },
-};
+// const user: {
+//   address: {
+//     city: string;
+//     town: string;
+//     postalCode?: string;
+//   };
+// } = {
+//   address: {
+//     city: "Dhaka",
+//     town: "Banani",
+//   },
+// };
 
-const postalCode = user?.address?.postalCode;
-console.log(postalCode);
+// const postalCode = user?.address?.postalCode;
+// console.log(postalCode);

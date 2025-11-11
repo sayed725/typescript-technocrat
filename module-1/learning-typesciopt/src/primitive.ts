@@ -11,8 +11,8 @@ let userId = 123;
 // userName.toFixed();
 userId.toFixed;
 
-let isAdmin: boolean = false;
-isAdmin = true;
+// let isAdmin: boolean = false;
+// isAdmin = true;
 
 let x: undefined = undefined;
 
