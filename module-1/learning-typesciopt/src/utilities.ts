@@ -15,10 +15,10 @@ type ProductWithoutStock = Omit<Product, "stock" | "color">;
 type ProductWithColor = Required<Product>;
 
 const productt: ProductWithColor = {
-  id: 222,
+  id: 2222,
   name: "Mouse",
   price: "20",
-  stock: 100,
+  stock: 1001,
   color: "black",
 };
 
