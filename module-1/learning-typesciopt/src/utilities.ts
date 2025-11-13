@@ -10,6 +10,7 @@ type Product = {
 
 type ProductSummary = Pick<Product, "id" | "name" | "price">;
 
+
 type ProductWithoutStock = Omit<Product, "stock" | "color">;
 
 type ProductWithColor = Required<Product>;

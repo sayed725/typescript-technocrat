@@ -13,6 +13,7 @@ type RichPeoplesVehiclee = {
   ship: string;
 };
 
+
 type CheckVehicle<T> = T extends keyof RichPeoplesVehicle ? true : false;
 
 type HasBike = CheckVehicle<"bike">;
