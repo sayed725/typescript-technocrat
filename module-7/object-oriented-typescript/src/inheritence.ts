@@ -1,59 +1,59 @@
-class Person {
-  name: string; // common
-  age: number; // common
-  address: string; // common
+// class Person {
+//   name: string; // common
+//   age: number; // common
+//   address: string; // common
 
-  constructor(name: string, age: number, address: string) {
-    this.name = name;
-    this.age = age;
-    this.address = address;
-  }
+//   constructor(name: string, age: number, address: string) {
+//     this.name = name;
+//     this.age = age;
+//     this.address = address;
+//   }
 
-  // common
-  getSleep(numOfhours: number) {
-    console.log(`${this.name} ${numOfhours} ghonta ghumai`);
-  }
-}
+//   // common
+//   getSleep(numOfhours: number) {
+//     console.log(`${this.name} ${numOfhours} ghonta ghumai`);
+//   }
+// }
 
-class Student extends Person {
+// class Student extends Person {
  
-  rollNo: number;
+//   rollNo: number;
 
-  constructor(name: string,age: number,address: string, rollNo: number){
+//   constructor(name: string,age: number,address: string, rollNo: number){
   
-    super(name, age, address)
-    this.rollNo = rollNo
+//     super(name, age, address)
+//     this.rollNo = rollNo
 
-  }
+//   }
 
-}
+// }
 
-const student1 = new Student(`Mr. fakibaaz`, 18, "Bangladesh", 1981);
+// const student1 = new Student(`Mr. fakibaaz`, 18, "Bangladesh", 1981);
 
 
 
-class Teacher extends Person {
-  designation: string; //own  property
+// class Teacher extends Person {
+//   designation: string; //own  property
 
-  constructor(name: string,age: number, address: string,designation: string) {
+//   constructor(name: string,age: number, address: string,designation: string) {
 
-     super(name, age, address)
+//      super(name, age, address)
 
-    this.designation = designation;
+//     this.designation = designation;
    
-  }
+//   }
 
-  // own method
-  takeClass(numOfclass: number) {
-    console.log(`${this.name} ${numOfclass} ghonta class nei`);
-  }
-}
+//   // own method
+//   takeClass(numOfclass: number) {
+//     console.log(`${this.name} ${numOfclass} ghonta class nei`);
+//   }
+// }
 
-const teacher1 = new Teacher(
-  "Mr. Smart Teacher",
-  25,
-  "Bangladesh",
-  "Senior teacher"
-);
+// const teacher1 = new Teacher(
+//   "Mr. Smart Teacher",
+//   25,
+//   "Bangladesh",
+//   "Senior teacher"
+// );
 
-teacher1.takeClass(6);
+// teacher1.takeClass(6);
