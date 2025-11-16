@@ -21,7 +21,7 @@ let destination: [string, string, number] = ["Dhaka", "Chattogram", 3];
 
 // reference type : object
 
-// const user: {
+// const person: {
 //   organization: "Programming Hero";// value => type : literal types
 //   firstName: string;
 //   middleName?: string; // optional type
@@ -35,10 +35,10 @@ let destination: [string, string, number] = ["Dhaka", "Chattogram", 3];
 // };
 
 
-// user.organization = "Programming Hero Fire";
+// person.organization = "Programming Hero Fire";
 
 
-// const user: {
+// const person2: {
 //   readonly organization: string; // access modifier
 //   firstName: string;
 //   middleName?: string; // optional type
@@ -51,4 +51,6 @@ let destination: [string, string, number] = ["Dhaka", "Chattogram", 3];
 //   isMarried: true,
 // };
 
-// user.organization = "Programming Hero Fire";
+// person2.organization = "Programming Hero Fire";
+
+// console.log(person2);
