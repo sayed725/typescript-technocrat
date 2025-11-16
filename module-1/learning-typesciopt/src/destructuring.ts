@@ -22,8 +22,8 @@
 
 // console.log(myMiddleName);
 
-// const friends = ["karim", "Rahim", "Mahim"];
+const friendss = ["karim", "Rahim", "Mahim"];
 
-// const [, ,myBestFriend] = friends;
+const [, ,myBestFriend] = friendss;
 
-// console.log(myBestFriend);
+console.log(myBestFriend);

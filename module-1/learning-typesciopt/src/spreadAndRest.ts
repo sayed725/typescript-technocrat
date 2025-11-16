@@ -19,7 +19,7 @@ const otherInfo = { hobby: "outing", favouriteColor: "Black" };
 
 const userInfo = { ...userDetails, ...otherInfo };
 
-// console.log(userInfo);
+console.log(userInfo);
 
 
 const sendInvite = (...friends: string[]) => {

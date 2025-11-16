@@ -1,10 +1,8 @@
 // Function
 // arrow function , normal function
 
-
-
-function addNormal (num1: number, num2: number) : number {
-    return num1 + num2;
+function addNormal(num1: number, num2: number): number {
+  return num1 + num2;
 }
 
 addNormal(12, 12);
@@ -12,9 +10,7 @@ addNormal(12, 12);
 const addArrow = (num1: number, num2: number): number => num1 + num2;
 addArrow(12, 12);
 
-
 //object => function => method
-
 
 const poorUser = {
   name: "mezba",
@@ -32,9 +28,3 @@ const arr: number[] = [1, 4, 6];
 const sqrArray = arr.map((elem: number): number => elem * elem);
 
 console.log(sqrArray);
-
-
-
-
-
-
