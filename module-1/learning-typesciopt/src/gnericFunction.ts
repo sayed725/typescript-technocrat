@@ -31,6 +31,10 @@ const createArrayTupleWithGeneric = <X, Y>(param1: X, param2: Y) => [
   param2,
 ];
 
+// const createArrayTupleWithGeneric = <X , y> (param1: X, param2: y) => {
+//   return [param1, param2];
+// }
+
 const res1 = createArrayTupleWithGeneric("Mezba", false);
 const res2 = createArrayTupleWithGeneric(222, { name: "Mezba" });
 

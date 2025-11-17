@@ -3,7 +3,7 @@
 //   age: number;
 // };
 
-// // interface : object type: array, object , function
+// // // interface : object type: array, object , function
 
 // interface IUser {
 //   name: string;
@@ -42,6 +42,7 @@
 // interface IAdd {
 //   (num1: number, num2: number): number;
 // }
+
 
 // const add1: IAdd = (num1, num2) => num1 + num2;
 
