@@ -45,10 +45,10 @@ class MezbaPlayer extends MediaPlayer {
     console.log(`Playing music...`);
   }
   pause(): void {
-    console.log("Music is paused !");
+    console.log("Music is paused!");
   }
   stop(): void {
-    console.log("Music is stopped !");
+    console.log("Music is stopped!");
   }
 }
 
