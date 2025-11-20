@@ -11,7 +11,7 @@ const addStudentToCourse1 = <T extends Student>(studentInfo: T) => {
 
 const studentt1 = {
   id: 123,
-  name: "Mezba",
+  name: "Mezba Hossain",
   hasPen: true,
 };
 
@@ -24,7 +24,7 @@ const studentt2 = {
 
 const studentt3 = {
   id: 444,
-  name: "Abdur Rakib",
+  name: "Abdur Rakib Islam",
   hasWatch: true,
   dateOfBirth: "20-20-2020",
   class: "1",
