@@ -26,13 +26,13 @@ class Animal {
   ) {}
 
   makeSound() {
-    console.log(`${this.name} is making  sound: ${this.sound}`);
+    console.log(`${this.name} is making this sound: ${this.sound}`);
   }
 }
 
-const dog = new Animal("dogesh bhai", "dog", "Ghew ghew");
+const dog = new Animal("dogesh bhai", "dog", "Ghew ghew ghew");
 
-// const cat = new Animal("Cat bhai", "Cat", "mewa meaw");
+// const cat = new Animal("Cat bhai", "Cat", "mewa meaw meaw");
 
 dog.makeSound();
 
