@@ -8,7 +8,7 @@ class Person {
   }
 
   getSleep(numOfhours: number) {
-    console.log(`${this.name} doinik ${numOfhours} ghonta ghumai`);
+    console.log(`${this.name} doinik ${numOfhours} ghonta ghumay`);
   }
 }
 
@@ -18,7 +18,7 @@ class Student extends Person {
   }
 
   doStudy(numOfhours: number) {
-    console.log(`${this.name} doinik ${numOfhours} ghonta study koe`);
+    console.log(`${this.name} doinik ${numOfhours} ghonta study kore`);
   }
 }
 
@@ -28,7 +28,7 @@ class Teacher extends Person {
   }
 
   doTeach(numOfhours: number) {
-    console.log(`${this.name} doinik ${numOfhours} ghonta porai`);
+    console.log(`${this.name} doinik ${numOfhours} ghonta poray`);
   }
 }
 
