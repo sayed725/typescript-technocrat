@@ -1,7 +1,7 @@
 // oop - abstraction
 
 // idea
-// implemenation pore krbo
+// implemenation pore krboo..
 
 /*
 
@@ -42,7 +42,7 @@ abstract class MediaPlayer {
 //implementation
 class MezbaPlayer extends MediaPlayer {
   play() {
-    console.log(`Playing music.....`);
+    console.log(`Playing music..`);
   }
   pause(): void {
     console.log("Music is paused!");
