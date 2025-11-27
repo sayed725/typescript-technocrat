@@ -12,6 +12,8 @@ let mixedArr: (string | number)[] = ["eggs", 12, "milk", 1, "sugar", 2];
 
 // mixedArr.push(12);
 
+// tuple : fixed length array , fixed type
+
 let coordinates: [number, number] = [12, 45];
 
 let couple: [string, string] = ["Husband", "wife"];

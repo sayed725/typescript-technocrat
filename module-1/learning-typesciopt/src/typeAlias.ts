@@ -47,7 +47,7 @@ type Name = string;
 
 const myName: Name = "Me. X";
 
-// function
+// function  
 
 type AddFunc = (num1: number, num2: number) => number;
 

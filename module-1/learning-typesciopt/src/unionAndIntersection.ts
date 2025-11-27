@@ -1,6 +1,6 @@
 // union |
 
-type UserRole = "admin" | "user" | "guest";
+type UserRole = "admin" | "user" | "mod";
 
 const getDashboard = (role: UserRole) => {
   if (role === "admin") {
@@ -8,13 +8,13 @@ const getDashboard = (role: UserRole) => {
   } else if (role === "user") {
     return "User dashboard";
   } else {
-    return "guest dashboard";
+    return "mod dashboard";
   }
 };
 
-getDashboard("guest");
+getDashboard("mod");
 
-// intersection &
+// intersection & 
 
 type Employee = {
   id: string;

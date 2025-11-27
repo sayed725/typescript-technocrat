@@ -13,6 +13,13 @@ const collegeFriends = ["Mr. Smart", "Mr very very smart"];
 
 // console.log(friends);
 
+// merge two array using spread operator
+
+const allFriends = [...schoolFriends, ...collegeFriends, "Rahim", "Karim"];
+
+// console.log(allFriends);
+
+// object spread operator
 const userDetails = { name: "Mezba", phoneNo: "0170000000" };
 
 const otherInfo = { hobby: "outing", favouriteColor: "Black" };
@@ -22,6 +29,7 @@ const userInfo = { ...userDetails, ...otherInfo };
 console.log(userInfo);
 
 
+// rest parameter 
 const sendInvite = (...friends: string[]) => {
   friends.forEach((friend: string) =>
     console.log(`Send invitation to ${friend}`)

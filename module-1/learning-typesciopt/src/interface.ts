@@ -5,20 +5,20 @@
 
 // // // interface : object type: array, object , function
 
-// interface IUser {
-//   name: string;
-//   age: number;
-// }
+interface IUser {
+  name: string;
+  age: number;
+}
 
 // type Role = {
-//   role: "admin" | "user";
+//   role: "admin" | "user" | "guest";
 // };
 
 // type UserWithRole = User & Role;
 
-// interface IUserWithRole extends IUser {
-//   role: "admin" | "user";
-// }
+interface IUserWithRole extends IUser {
+  role: "admin" | "user" | "guest";
+}
 
 // const user1: IUserWithRole = {
 //   name: "Mr.X",

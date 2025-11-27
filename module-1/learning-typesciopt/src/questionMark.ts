@@ -17,12 +17,13 @@ const biyerJonnoEligible = (age: number) => {
 
 biyerJonnoEligible(21);
 
+// nullish coalescing operator ?? 
 
 const userTheme = null;
 
 const selectedTheme = userTheme ?? "Light theme";
 
-// console.log(selectedTheme);
+console.log(selectedTheme);
 
 
 const isAuthenticated = "";
@@ -31,9 +32,9 @@ const resultWithTernary = isAuthenticated ? isAuthenticated : "You are guest !";
 
 const resultWithNulish = isAuthenticated ?? '"You are guest !';
 
-// console.log({ resultWithTernary }, { resultWithNulish });
+console.log({ resultWithTernary }, { resultWithNulish });
 
-//optional chaining
+//optional chaining 
 
 // const user: {
 //   address: {
