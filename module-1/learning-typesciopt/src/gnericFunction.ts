@@ -38,7 +38,7 @@ const createArrayTupleWithGeneric = <X, Y>(param1: X, param2: Y) => [
 const res1 = createArrayTupleWithGeneric("Mezba", false);
 const res2 = createArrayTupleWithGeneric(222, { name: "Mezba" });
 
-const addStudentToCourse = <T>(studentInfo: T) => {
+const addStudentToCourse = <T> (studentInfo: T)=> {
   return {
     course: "Next Level",
     ...studentInfo,
@@ -58,5 +58,5 @@ const student2 = {
   isMarried: true,
 };
 
-const result = addStudentToCourse(student2);
+const result = addStudentToCourse(student1);
 console.log(result);

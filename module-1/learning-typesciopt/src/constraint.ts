@@ -28,6 +28,7 @@ const studentt3 = {
   hasWatch: true,
   dateOfBirth: "20-20-2020",
   class: "1",
+  isloll: false,
 };
 
 const constraintResult1 = addStudentToCourse1(studentt3);

@@ -26,6 +26,8 @@ type height = AreaOfNum["height"];
 //   width: string;
 // };
 
+// mapped
+
 type Area<T> = {
   [key in keyof T]: T[key];
 

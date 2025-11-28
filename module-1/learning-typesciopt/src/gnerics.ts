@@ -34,6 +34,20 @@ const sqrFunc = (value: number) => {
 
 sqrFunc(4);
 
+// generic function
+
+function getArrayLength<T>(arr: GenericArray<T>): number {
+  return arr.length;
+}
+
+const lengthOfStringArray = getArrayLength<string>(["A", "B", "C", "D"]);
+const lengthOfNumArray = getArrayLength<number>([1, 2, 3, 4, 5, 6]);
+
+// console.log(lengthOfStringArray);
+// console.log(lengthOfNumArray);
+
+// multiple generic types
+
 type Coordinates<X, Y> = [X, Y];
 
 const coordinates1: Coordinates<number, number> = [20, 30];

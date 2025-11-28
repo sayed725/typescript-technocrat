@@ -1,4 +1,9 @@
-// static
+// static 
+
+// static keyword use korle class er sathe direct access kora jay. object create na koreo access kora jay
+// static property and method use kora jay
+// static er moddhe this keyword use kora jay na
+// static member access korar jonno class name use korte hoy
 
 class Counter {
   static count: number = 0; // static
@@ -11,7 +16,7 @@ class Counter {
   }
 }
 
-// const instance1 = new Counter(); // ekta memory
+const instance1 = new Counter(); // ekta memory
 // console.log(instance1.increment()); // 1
 // console.log(instance1.increment()); // 1 >> 2
 // console.log(instance1.increment()); // 2 >>> 3
